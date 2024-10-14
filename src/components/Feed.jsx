@@ -29,7 +29,7 @@ const Feed = () => {
         <Typography
           className="copyright"
           variant="body2"
-          sx={{ mt: 1.5, color: '#fff' }}
+          sx={{ mt: 1.5, color: '#2eb14c' }}
         >
           Copyright 2024 @TCROWN
         </Typography>
@@ -41,7 +41,7 @@ const Feed = () => {
           mb={2}
           sx={{ color: '#fff' }}
         >
-          {selectedCategory} <span style={{ color: '#f31503' }}>videos</span>
+          {selectedCategory} <span style={{ color: '#2eb14c' }}>videos</span>
         </Typography>
         <Videos videos={videos} />
       </Box>
