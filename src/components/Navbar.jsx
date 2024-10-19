@@ -17,7 +17,7 @@ const Navbar = () => {
       }}
     >
       <Link to="/" style={{ display: 'flex', alignItems: 'center' }}>
-        <img src={"/public/tcrown.png"} alt="logo" height={45} />
+        <img src={"/tube.png"} alt="logo" height={45} />
       </Link>
       <SearchBar />
     </Stack>
